@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 <head>
 <style>
 h1 {
@@ -8,9 +9,15 @@ h1 {
   font-size: 300%;
 }
 p {
-  color: red;
+  color: white;
   font-family: courier;
   font-size: 160%;
+}
+
+h3 {
+  color: rgb(255, 0, 0);
+  font-family: verdana;
+  font-size: 400%;
 }
 </style>
 </head>
@@ -18,6 +25,62 @@ p {
 
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
+<button class="btn btn-primary">Готово!</button>
+
+<!-- Цельный верхний блок -->
+    <div class="bg-warning text-white p-5 text-center">
+        <h1 class="display-4">This is a heading</h1>
+        <p class="lead">This is a paragraph.</p>
+        <button class="btn btn-light btn-lg">Готово!</button>
+    </div>
+
+<div class="row mt-4">
+        <div class="col-md-4 bg-dark border">
+          <div class="custom-card">
+            <h3>Блок 1</h3>
+            <p>Содержимое первого блока с описанием возможностей</p>
+          </div>
+        </div>
+        <div class="col-md-4 bg-dark border" >
+          <div class="custom-card">
+            <h3>Блок 2</h3>
+            <p>Содержимое второго блока с полезной информацией</p>
+          </div>
+        </div>
+        <div class="col-md-4 bg-dark border">
+          <div class="custom-card">
+            <h3>Блок 3</h3>
+            <p>Содержимое третьего блока с дополнительными сведениями</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-success text-white p-5 text-center">
+        <h1 class="display-4">This is good</h1>
+        <p class="lead">This is a paragraph.</p>
+  </div>
+
+    <div class="row-mt-12">
+        <div class="col-md-6 bg-dark border">
+          <div class="custom-card">
+            <h3>Блок 1</h3>
+            <p>Содержимое первого блока с описанием возможностей</p>
+          </div>
+        </div>
+        <div class="col-md-6 bg-dark border" >
+          <div class="custom-card">
+            <h3>Блок 2</h3>
+            <p>Содержимое второго блока с полезной информацией</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDqMZovKnxqO8VKrYsJ+ek8Qx2A5pY0mOb/Av0jU6p5aA1jCq+JZ+3" crossorigin="anonymous"></script>
 
 </body>
 </html>
